@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting driver]]>
+    </line>
+    <line>
+      <![CDATA[Setting driver]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-07T17:41:06 IST" name="Parallel Test Suite" finished-at="2024-11-07T17:41:27 IST" duration-ms="20259">
+    <groups>
+    </groups>
+    <test started-at="2024-11-07T17:41:06 IST" name="Test" finished-at="2024-11-07T17:41:27 IST" duration-ms="20259">
+      <class name="qa.test.TestCase1">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:06 IST" name="beforeTestMethod" finished-at="2024-11-07T17:41:07 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.reflect.Method)[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:07 IST" name="beforeMethodMethod" finished-at="2024-11-07T17:41:20 IST" duration-ms="13523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qa.test.TestCase1.sampleMethodToOpenAmazon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting driver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.reflect.Method)[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:07 IST" name="beforeMethodMethod" finished-at="2024-11-07T17:41:21 IST" duration-ms="14079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qa.test.TestCase1.sampleMethodToClickFresh()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting driver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleMethodToOpenAmazon()[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:20 IST" name="sampleMethodToOpenAmazon" finished-at="2024-11-07T17:41:21 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodToOpenAmazon -->
+        <test-method signature="sampleMethodToClickFresh()[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:21 IST" name="sampleMethodToClickFresh" finished-at="2024-11-07T17:41:25 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodToClickFresh -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:21 IST" name="AfterMethodMethod" finished-at="2024-11-07T17:41:25 IST" duration-ms="3605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodToOpenAmazon status=SUCCESS method=TestCase1.sampleMethodToOpenAmazon()[pri:0, instance:qa.test.TestCase1@4b013c76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="AfterMethodMethod(org.testng.ITestResult)[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:25 IST" name="AfterMethodMethod" finished-at="2024-11-07T17:41:26 IST" duration-ms="1086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodToClickFresh status=SUCCESS method=TestCase1.sampleMethodToClickFresh()[pri:0, instance:qa.test.TestCase1@4b013c76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.test.TestCase1@4b013c76]" started-at="2024-11-07T17:41:26 IST" name="afterTest" finished-at="2024-11-07T17:41:27 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.test.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
